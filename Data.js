@@ -1,7 +1,7 @@
 var clipartData={
 "imageCategory":[
-			{"ImageCatName":"All",
-			   "IsClipartImageReady": true,
+			{
+			   "ImageCatName":"All",
 			   "IsDefault": true,
                "ImageCatId":"All",
               
@@ -9,28 +9,23 @@ var clipartData={
 
 			{
                "ImageCatName":"Gold Letters",
-			   "IsClipartImageReady": true,
                "ImageCatId":87,
               
             },
             {
                "ImageCatName":"Gold 2",
-			   "IsClipartImageReady": true,
                "ImageCatId":88,
               
             },
             {
                "ImageCatName":"Gold-3",
-			   "IsClipartImageReady": true,
                "ImageCatId":89,
               
             }
 ],
 "categoryImages":[
 {
-               "Name":"All",
                "categoryId":"All",
-			   "IsReady": true,
 			   "ImageList": [
 					{
                      "ImageUrl":"images/1.jpg",
@@ -90,9 +85,7 @@ var clipartData={
 			   ]
     },
 	          {
-               "Name":"Gold Letters",
                "categoryId":87,
-			   "IsReady": true,
 			   "ImageList": [
 					{
                      "ImageUrl":"images/1.jpg",
@@ -152,9 +145,7 @@ var clipartData={
 			   ]
     },
 	{
-               "Name":"Gold 2",
                "categoryId":88,
-			   "IsReady": true,
 			   "ImageList": [
 					{
                      "ImageUrl":"images/4.jpg",
@@ -177,9 +168,7 @@ var clipartData={
 			   
 			   ]
     },{
-               "Name":"Gold 3",
                "categoryId":89,
-			   "IsReady": true,
 			   "ImageList": [
 					{
                      "ImageUrl":"images/7.jpg",
