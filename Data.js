@@ -1,7 +1,4 @@
 var clipartData={
-"serverUrl":'www.x.xom?category={ImageCatId}&perPage={perPageCount}',
-"perPageCount":10,
-
 "imageCategory":[
 			{"ImageCatName":"All",
 			   "IsClipartImageReady": true,
