@@ -1,27 +1,35 @@
 <!DOCTYPE html>
-<html lang="en" class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>jQuery Filterable Gallery</title>
-		
-		<meta name="viewport" content="width=device-width initial-scale=1">
-		<link rel="stylesheet" href="css/jquery.fancybox.css">
-		<link rel="stylesheet" href="css/gallery.css">
-		<link rel="stylesheet" href="css/styles.css">
-		
-	</head>
+<html lang="en" class="">
 
-	<body>
-	<div class="container">
-		<div id="imageGal">
-		
-		</div>
-	
-	</div>
-	<script src="js/jquery-1.10.2.js"></script>
-	<script src="js/jquery.fancybox.js"></script>
-	<script src="js/gallery.js"></script>
-	<script src="data.js"></script>
-	
-	<script>
-	 $('#imageGal').imageGallery(clipartData);
-	</script>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>jQuery Filterable Gallery</title>
+
+    <meta name="viewport" content="width=device-width initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.fancybox.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div id="imageGal">
+
+        </div>
+
+    </div>
+
+
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="data.js"></script>
+
+    <script>
+        $('#imageGal').imageGallery(clipartData);
+
+        $('h5.heading').closest('section').addClass('newClass')
+    </script>
+
 </html>
